@@ -11,15 +11,15 @@ public class App
         //declaring a variable and instantiating a Car object
         //this is also called initializing a variable
         Car firstCompetitor = new Car (new Engine());
-        firstCompetitor.name = "Dacia";
-        firstCompetitor.color = "black";
+        firstCompetitor.setName("Dacia");
+        firstCompetitor.setColor("black");
         firstCompetitor.doorCount = 5;
-        firstCompetitor.mileage = 9.5;
+        firstCompetitor.setMileage(9.5);
 
         //local variables are variables declared inside a class
         //they don't receive default values
         Car secondCompetitor = new Car(new Engine());
-        secondCompetitor.name = "Golf";
+        secondCompetitor.setName("Golf");
 
         Engine firstEngine = new Engine ();
         firstEngine.manufacturer = "Renault";
