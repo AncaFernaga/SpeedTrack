@@ -8,7 +8,6 @@ public class AutoVehicle extends Vehicle {
         this.engine = engine;
         }
 
-        //constructor overloading
         public AutoVehicle() {
             this(new Engine());
         }

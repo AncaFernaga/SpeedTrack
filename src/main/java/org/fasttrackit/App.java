@@ -7,6 +7,10 @@ import org.fasttrackit.cheater.CheatingCar;
  */
 public class App {
     public static void main(String[] args) {
+        Vehicle cheatingCar = new CheatingCar();
+        cheatingCar.accelerate(10, 2);
+
+
         //declaring a variable and instantiating a Car object
         //this is also called initializing a variable
         Car firstCompetitor = new Car(new Engine());
