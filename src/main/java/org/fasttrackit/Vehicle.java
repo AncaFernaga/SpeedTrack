@@ -1,18 +1,28 @@
 package org.fasttrackit;
 
 public class Vehicle {
+
+    public static int applicationTotalNumberOfVehicles;
+
     private String name;
     private String color;
     private double mileage;
     private long totalKm;
+    public double durationInHours;
 
-    public double accelerate (double speed, double durationInHours) {
+    public double accelerate(double speed, double durationInHours) {
         System.out.println(name + " accelerated with " + speed +
                 " km/h for" + durationInHours + " hours ");
 
-double distance = speed * durationInHours;
+        double distance = speed * durationInHours;
         System.out.println(" Traveled distance " + distance);
         return distance;
+    }
+
+    {
+        double accelerate;(double speed){
+            return accelerate(speed, durationInHours:1);
+    }
     }
 
     public String getName() {
