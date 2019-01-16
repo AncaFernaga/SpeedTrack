@@ -7,9 +7,17 @@ import org.fasttrackit.cheater.CheatingCar;
  */
 public class App {
     public static void main(String[] args) {
+        Game game = new Game();
+        game.addTrack(0, new Track("Highway", 300));
+        game.addTrack(1, new Track("Seaside", 100));
+
+        game.displayAvailableTracks();
+
+
         //modulo operator
         System.out.println(4 % 2);
         System.out.println(4 % 3);
+
         Vehicle cheatingCar = new CheatingCar();
         cheatingCar.accelerate(10, 2);
 
