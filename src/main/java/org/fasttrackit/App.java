@@ -5,10 +5,15 @@ import org.fasttrackit.cheater.CheatingCar;
 /**
  * Hello world!
  */
-public class App {
-    public static void main(String[] args) {
-        Game game = new Game();
 
+public class App {
+    public static void main(String[] args) throws Exception {
+        Game game = new Game();
+        game.start();
+    }
+}
+
+        /*
         game.addCompetitors(2);
         game.displayCompetitors();
 
@@ -75,5 +80,5 @@ public class App {
 
 
     }
-
 }
+*/
